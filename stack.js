@@ -17,11 +17,11 @@ nombre.push("Mayra");
 nombre.push("Monserrat");
 
 var apellido = new Stack();
-nombre.push("Garnica");
-nombre.push("Gonzalez");
-nombre.push("Nuve");
-nombre.push("Reyes");
-nombre.push("Luna");
+apellido.push("Garnica");
+apellido.push("Gonzalez");
+apellido.push("Nuve");
+apellido.push("Reyes");
+apellido.push("Luna");
 
 for (var i=0; i<5; i++){
   nombresCompletos.push(nombre.pop() + " " + apellido.pop());
